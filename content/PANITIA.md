@@ -1,5 +1,5 @@
 ## LIST PANITIA
 
 - Fahmi Syaifudin
-- Fahmi Ali
+- Mochammad Fahmi Ali
 - 
