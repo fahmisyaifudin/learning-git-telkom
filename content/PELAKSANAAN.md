@@ -1,7 +1,7 @@
 ## PELAKSANAAN
 
 WAKTU : 16 April 2020
-TEMPAT : GOR ITS
+TEMPAT : Lapangan Merah PENS
 
 ## RUNDOWN ACARA
 
