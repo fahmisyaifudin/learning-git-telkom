@@ -7,7 +7,7 @@ Linux
 ```bash
 apt-get install git
 ```
-Windows [Download] (https://git-scm.com/download/win)
+Windows [Download](https://git-scm.com/download/win)
 
 Konfigurasi Awal
 
@@ -20,11 +20,11 @@ git config --global user.email fahmisyaifudin@example.com
 
 1. Klik New Repository
 
-![image] (/img/1.png)
+![image](img/1.png)
 
 2. Berikan nama dan deskripsi (optional) pada repository, centang public/private, aku centang public agar repository ini bisa diakses semua orang
 
-![image] (/img/2.png)
+![image](img/2.png)
 
 3. Tulis perintah berikut pada Git bash (windows), terminal (linux)
 
