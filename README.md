@@ -45,32 +45,29 @@ git clone https://github.com/fahmisyaifudin/learning-git-telkom.git
                 
 ## Practice
 
-
-### Practice 1
-1. Silahkan clone project ini https://github.com/fahmisyaifudin/learning-git-telkom.git
-2. Tambahkan Perubahan pada PANITIA.md dan tulis nama kalian disitu
-3. Commit dan push ke master
-4. Tulis analisa dari percobaan diatas :)
-
-### Practice 2
-1. Pada direktori yang sama, silahkan pull pada branch master
+1. Silahkan fork project ini https://github.com/fahmisyaifudin/learning-git-telkom.git
+2. Clone ke laptop kalian
+   git clone https://github.com/<username>/learning-git-telkom.git
+3. Buat branch baru beri nama "feature/namakalian"
 
 ```bash
+git checkout -b "feature/namakalian"
+```
+4. Tambahkan Perubahan pada PANITIA.md dan tulis nama kalian disitu
+5. Commit dan push ke branch "feature/namakalian"
+   
+```bash
+git add .
+git commit -m "initial commit"
+git push origin feature/namakalian
+```
+6. Lakukan pull request kayak contoh dibawah ini
+![image](img/pull_request.png)
+
+7. jika ada pesan conflict saat melakukan pull request lakukan rebase/merge
+  ```bash
+git checkout master
 git pull origin master
-```
-2. Tulis analisa dari percobaan diatas :)
-
-### Practice 3
-1. Buat branch baru beri nama "revisi-namakalian"
-
-```bash
-git checkout -b "revisi-namakalian"
-```
-
-2. Rubah isi proposal bebas bisa di content/LATARBELAKANG.md, content/TUJUAN.md, content/PELAKSANAAN.md, content/BIAYA.md
-
-3. Push branch kalian ke repository ku
-
-```bash
-git push origin "revisi-namakalian"
+git checkout feature/namakalian
+git rebase master 
 ```
