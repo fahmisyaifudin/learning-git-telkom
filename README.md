@@ -47,7 +47,7 @@ git clone https://github.com/fahmisyaifudin/learning-git-telkom.git
 
 1. Silahkan fork project ini https://github.com/fahmisyaifudin/learning-git-telkom.git
 2. Clone ke laptop kalian
-   git clone https://github.com/<username>/learning-git-telkom.git
+   git clone https://github.com/$username/learning-git-telkom.git
 3. Buat branch baru beri nama "feature/namakalian"
 
 ```bash
